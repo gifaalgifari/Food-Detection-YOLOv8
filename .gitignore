@@ -1,0 +1,64 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+food-detection/
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.env/
+.env.*
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# YOLO / ML Artifacts
+# ===============================
+*.pt
+*.onnx
+*.engine
+runs/
+datasets/
+weights/
+
+# ===============================
+# Data Files (optional)
+# uncomment jika tidak ingin commit data
+# ===============================
+# *.csv
+# *.xlsx
+# *.json
+
+# ===============================
+# Logs & Cache
+# ===============================
+*.log
+.cache/
+.ipynb_checkpoints/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Temporary / Downloaded Files
+# ===============================
+tmp/
+downloads/
